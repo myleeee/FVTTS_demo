@@ -1,6 +1,6 @@
 # FVTTS Demo (CVPR24_11226)
 
-This demo page for "FVTTS : Face-based Voice synthesis Text-To-Speech".
+This demo page for "FVTTS : Face-based Voice synthesis for Text-To-Speech".
 
 
 ## LRS3 (Unseen)
