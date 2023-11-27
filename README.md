@@ -4,12 +4,12 @@ This demo page for "FVTTS : Face-based Voice synthesis for Text-To-Speech".
 
 
 ## LRS3 (Unseen)
-FVTTS synthesize diverse voice of multi-Speaker faces. 
-With different face images of the same Speaker face, FVTTS generate similar but not same voices. 
+FVTTS synthesize diverse voice of multi-Speaker Faces. 
+With different face images of the same Speaker Face, FVTTS generate similar but not same voices. 
 The synthetic results are shown in following samples. 
 This synthetic voice is synthesized with unseen face images.
 
-|Text|Speaker face|FaceTTS[1]|YourTTS[2]|Ours|GT|
+|Text|Speaker Face|FaceTTS[1]|YourTTS[2]|Ours|GT|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |So when I started my job at the Arnold Foundation I came back to looking at a lot of these questions and I came back.|<img src="./img/unseen/S0_I0_T7.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/unseen/S0_I0_T7.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/unseen/S0_I0_T7.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/unseen/S0_I0_T7.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/unseen/S0_I0_T7.mp4" type="video/mp4" /> </video>|
 |So people hear about this study and they're like great if I want to get better at my job I just need to upgrade my browser.|<img src="./img/unseen/S1_I0_T8.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/unseen/S1_I0_T8.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/unseen/S1_I0_T8.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/unseen/S1_I0_T8.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/unseen/S1_I0_T8.mp4" type="video/mp4" /> </video>|
@@ -24,7 +24,7 @@ This synthetic voice is synthesized with unseen face images.
 
 Following samples are the results of seen dataet.
 
-|Text|Speaker face|FaceTTS[1]|YourTTS[2]|Ours|GT|
+|Text|Speaker Face|FaceTTS[1]|YourTTS[2]|Ours|GT|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |So people So people hear about this study and they're like great if I want to get better at my job I just need to upgrade my browser.|<img src="./img/seen/S2_I0_T8.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/seen/S2_I0_T8.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/seen/S2_I0_T8.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/seen/S2_I0_T8.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/seen/S2_I0_T8.mp4" type="video/mp4" /> </video>|
 |And he was talking about the importance of coaching boys into men and changing the culture of the locker room and giving.|<img src="./img/seen/S7_I1_T9.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/seen/S7_I1_T9.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/seen/S7_I1_T9.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/seen/S7_I1_T9.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/seen/S7_I1_T9.mp4" type="video/mp4" /> </video>|
@@ -36,7 +36,7 @@ Following samples are the results of seen dataet.
 With GRID dataset, the out of distribution of seen dataset, we generate new voices.
 
 
-|Text|Speaker face|FaceTTS[1]|YourTTS[2]|Ours|GT|
+|Text|Speaker Face|FaceTTS[1]|YourTTS[2]|Ours|GT|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |We have ideas for how to make things better and I want to share three of them that we've picked up in our own work.|<img src="./img/grid/S0_I0_T0.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/grid/S0_I0_T0.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/grid/S0_I0_T0.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/grid/S0_I0_T0.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/grid/S0_I0_T0.mp4" type="video/mp4" /> </video>|
 |We have ideas for how to make things better and I want to share three of them that we've picked up in our own work.|<img src="./img/grid/S1_I0_T0.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/grid/S1_I0_T0.mp4" type="video/mp4" /> </video>|<video controls width="250"> <source src="./video/yourTTS/grid/S1_I0_T0.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/grid/S1_I0_T0.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/GT/grid/S1_I0_T0.mp4" type="video/mp4" /> </video>|
@@ -50,7 +50,7 @@ To apply FVTTS to animation images, we synthesize voice of animation characters.
 We select the human-like character images and synthesize the voice.
 Note that the model is trained for generate human voice, so that the characters' voices do not similar to their original voices.
 
-|Text|Speaker face|FaceTTS[1]|Ours|
+|Text|Speaker Face|FaceTTS[1]|Ours|
 |:---:|:---:|:---:|:---:|
 |You should see these places, I mean there are a whole world outside of books and maps.|<img src="./img/ani/al.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/ani/al.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/ani/al.mp4" type="video/mp4" /> </video>
 |You should see these places, I mean there are a whole world outside of books and maps.|<img src="./img/ani/sul.jpg"  width="100" height="100"/>|<video controls width="250"> <source src="./video/faceTTS/ani/sul.mp4" type="video/mp4" /> </video> |<video controls width="250"> <source src="./video/FVTTS/ani/sul.mp4" type="video/mp4" /> </video>
@@ -62,4 +62,4 @@ Note that the model is trained for generate human voice, so that the characters'
 
 [1] Lee, J., Chung, J. S., & Chung, S. W. (2023, June). Imaginary Voice: Face-Styled Diffusion Model for Text-to-Speech. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1-5). IEEE.
 
-[2] Casanova, E., Weber, J., Shulby, C. D., Junior, A. C., Gölge, E., & Ponti, M. A. (2022, June). Yourtts: Towards zero-shot multi-Speaker face tts and zero-shot voice conversion for everyone. In International Conference on Machine Learning (pp. 2709-2720). PMLR.
+[2] Casanova, E., Weber, J., Shulby, C. D., Junior, A. C., Gölge, E., & Ponti, M. A. (2022, June). Yourtts: Towards zero-shot multi-Speaker Face tts and zero-shot voice conversion for everyone. In International Conference on Machine Learning (pp. 2709-2720). PMLR.
